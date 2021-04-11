@@ -1,0 +1,145 @@
+@font-face {
+	font-family: PixelMplus12-Regular;
+	src: url('../font/PixelMplus12-Regular.ttf') format("truetype");
+}
+
+body {
+    font-family: PixelMplus12-Regular;
+    font-size: 16px;
+    background-color: #73C33A;
+    color: #373C38;
+}
+
+#img-icon {
+    height: 32vh;
+    position: fixed;
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -100;
+}
+
+section {
+    padding: 20px;
+}
+.about {
+    padding-top: 32vh;
+}
+
+p {
+    padding: 8px 0;
+}
+
+.centering {
+    text-align: center;
+}
+
+.name {
+    font-size: 32px;
+    color: #c5c56a;
+    text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
+}
+
+.img-inline {
+    display: inline-block;
+    height: 20px;
+}
+
+.background-orange {
+    background-color: #e49e61;
+    position: fixed;
+    z-index: -1000;
+    width: 100vw;
+    height: 0;
+    bottom: 0;
+}
+
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.link-item {
+    flex-basis: 320px;
+    height: 120px;
+    position: relative;
+    margin: 8px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.link-item i {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 80px;
+}
+.link-item h2 {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 32px;
+}
+.link-item p {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    text-align: right;
+}
+
+
+.youtube {
+    border: 2px #DA1725 solid;
+    i {
+        color: #DA1725;
+    }
+}
+.twitch {
+    border: 2px #6441A4 solid;
+    i {
+        color: #6441A4;
+    }
+}
+.twitter {
+    border: 2px #1DA1F2 solid;
+    i {
+        color: #1DA1F2;
+    }
+}
+.tiktok {
+    border-top: 2px #85F9F5 solid;
+    border-left: 2px #85F9F5 solid;
+    border-right: 2px #FE2C55 solid;
+    border-bottom: 2px #FE2C55 solid;
+    i {
+        color: #000000;
+    }
+}
+.peing {
+    border: 1px #5EB9BA solid;
+    i {
+        color: #5EB9BA;
+    }
+}
+.instagram {
+    border-top: 2px #4C64D3 solid;
+    border-left: 2px #CF2E92 solid;
+    border-right: 2px #F26939 solid;
+    border-bottom: 2px #FFDD83 solid;
+    i {
+        color: #F26939;
+    }
+}
+.amazon {
+    border: 2px #FF9900 solid;
+    i {
+        color: #FF9900;
+    }
+}
+.email {
+    border-top: 2px #0F9D58 solid;
+    border-left: 2px #F4B400 solid;
+    border-right: 2px #DB4437 solid;
+    border-bottom: 2px #4285F4 solid;
+    i {
+        color: #DB4437;
+    }
+}
